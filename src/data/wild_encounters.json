@@ -57671,7 +57671,7 @@
               {
                 "min_level": 42,
                 "max_level": 46,
-                "species": "SPECIES_STARLY"
+                "species": "SPECIES_PIDGEY"
               },
               {
                 "min_level": 42,
@@ -57686,7 +57686,7 @@
               {
                 "min_level": 42,
                 "max_level": 44,
-                "species": "SPECIES_BIDOOF"
+                "species": "SPECIES_SENTRET"
               },
               {
                 "min_level": 42,
@@ -57875,7 +57875,7 @@
               {
                 "min_level": 42,
                 "max_level": 46,
-                "species": "SPECIES_STARLY"
+                "species": "SPECIES_HOOTHOOT"
               },
               {
                 "min_level": 42,
@@ -57893,9 +57893,9 @@
                 "species": "SPECIES_POOCHYENA"
               },
               {
-                "min_level": 42,
-                "max_level": 44,
-                "species": "SPECIES_BIDOOF"
+                "min_level": 46,
+                "max_level": 48,
+                "species": "SPECIES_SENTRET"
               },
               {
                 "min_level": 46,
