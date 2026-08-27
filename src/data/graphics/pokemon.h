@@ -5126,6 +5126,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u16 gMonPalette_Scizor[] = INCBIN_U16("graphics/pokemon/scizor/normal_gba.gbapal");
     const u32 gMonBackPic_Scizor[] = INCBIN_U32("graphics/pokemon/scizor/back_gba.4bpp.smol");
     const u16 gMonShinyPalette_Scizor[] = INCBIN_U16("graphics/pokemon/scizor/shiny_gba.gbapal");
+    const u16 gShinyModernOverworldPalette_Scizor[] = INCBIN_U16("graphics/pokemon/scizor/overworld_shiny_modern.gbapal");
 #endif //P_GBA_STYLE_SPECIES_GFX
 #if !P_GBA_STYLE_SPECIES_ICONS
     const u8 gMonIcon_Scizor[] = INCBIN_U8("graphics/pokemon/scizor/icon.4bpp");
@@ -27547,6 +27548,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u16 gMonShinyPaletteModern_Lanturn[] = INCBIN_U16("graphics/pokemon/lanturn/shiny_modern.gbapal");
     const u16 gMonShinyPaletteModern_Xatu[] = INCBIN_U16("graphics/pokemon/xatu/shiny_modern.gbapal");
     const u16 gMonShinyPaletteModern_Scyther[] = INCBIN_U16("graphics/pokemon/scyther/shiny_modern.gbapal");
+    const u16 gMonShinyPaletteModern_Scizor[] = INCBIN_U16("graphics/pokemon/scizor/shiny_modern.gbapal");
     const u16 gMonShinyPaletteModern_Heracross[] = INCBIN_U16("graphics/pokemon/heracross/shiny_modern.gbapal");
     const u16 gMonShinyPaletteModern_Phanpy[] = INCBIN_U16("graphics/pokemon/phanpy/shiny_modern.gbapal");
     const u16 gMonShinyPaletteModern_Elekid[] = INCBIN_U16("graphics/pokemon/elekid/shiny_modern.gbapal");
