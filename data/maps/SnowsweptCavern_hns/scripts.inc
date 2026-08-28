@@ -203,7 +203,7 @@ Snowswept_EventScript_Item_IcyRock::
     finditem ITEM_ICY_ROCK
     end
 
-Snowswept_EventScript_Item_UltraBall::
-    finditem ITEM_ULTRA_BALL
+Snowswept_EventScript_Item_ArmorFossil::
+    finditem ITEM_ARMOR_FOSSIL
     end
 
