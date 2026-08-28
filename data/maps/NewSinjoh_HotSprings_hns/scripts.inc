@@ -1,8 +1,8 @@
 NewSinjoh_HotSprings_hns_MapScripts::
 	.byte 0
 
-NewSinjoh_HotSprings_EventScript_Item_SkullFossil::
-    finditem ITEM_SKULL_FOSSIL
+NewSinjoh_HotSprings_EventScript_Item_MaxRevive::
+    finditem ITEM_MAX_REVIVE
     end
 
 NewSinjoh_HotSprings_EventScript_Item_LavaCookie::

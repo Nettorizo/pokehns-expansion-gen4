@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NewSinjoh_HotSprings_EventScript_Item_SkullFossil",
-      "flag": "FLAG_NEWSINJOH_HOTSPRINGS_ITEM_SKULLFOSSIL"
+      "script": "NewSinjoh_HotSprings_EventScript_Item_MaxRevive",
+      "flag": "FLAG_NEWSINJOH_HOTSPRINGS_ITEM_MAXREVIVE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL_HNS",
