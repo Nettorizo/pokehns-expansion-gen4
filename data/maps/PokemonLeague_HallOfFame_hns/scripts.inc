@@ -102,6 +102,7 @@ PokemonLeague_HallOfFame_EventScript_SetGameClearFlags::
 	clearflag FLAG_BATTLED_DEOXYS
 	clearflag FLAG_DEFEATED_DEOXYS
 	clearflag FLAG_SUMMONED_MTMOON_JIRACHI
+	clearflag FLAG_HIDE_SHAYMIN
 	setvar VAR_LEAGUE_STATE, 1
 	return
 

@@ -25,7 +25,7 @@
     "gMapGroup_IndoorJohtoRoutes_Hns",
     "gMapGroup_IndoorKantoRoutes_Hns",
     "gMapGroup_Dungeons_Hns",
-    "gMapGrouop_OutdoorAlola_Hns",
+    "gMapGroup_OutdoorAlola_Hns",
     "gMapGroup_IndoorAlola_Hns",
     "gMapGroup_IndoorDynamic_Hns",
     "gMapGroup_Sinjoh_Hns",
@@ -475,6 +475,7 @@
     "IlexForest_hns",
     "NationalPark_Normal_hns",
     "NationalPark_BugContest_hns",
+    "NationalPark_Meadow_hns",
     "BurnedTower_1F_hns",
     "BurnedTower_B1F_hns",
     "CliffEdgeGate_hns",
@@ -551,7 +552,7 @@
     "RuinsOfAlph_WordsRoom4_hns",
     "Route19_Cave_hns"
   ],
-  "gMapGrouop_OutdoorAlola_Hns": [
+  "gMapGroup_OutdoorAlola_Hns": [
     "PoniIsle_hns",
     "AkalaIsle_hns",
     "MelemeleIsle_hns",
