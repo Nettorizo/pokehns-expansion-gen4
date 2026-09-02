@@ -17047,6 +17047,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .backAnimId = BACK_ANIM_JOLT_RIGHT,
         .palette = gMonPalette_Scizor,
         .shinyPalette = gMonShinyPalette_Scizor,
+        .shinyPaletteModern = gMonShinyPaletteModern_Scizor,
         .iconSprite = gMonIcon_Scizor,
         .iconPalIndex = 0,
 #if P_GENDER_DIFFERENCES
@@ -17063,7 +17064,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
             TRACKS_FOOT,
             sAnimTable_Following,
             gOverworldPalette_Scizor,
-            gShinyOverworldPalette_Scizor
+            gShinyOverworldPalette_Scizor,
+            gShinyModernOverworldPalette_Scizor
         )
         OVERWORLD_FEMALE(
             sPicTable_ScizorF,
