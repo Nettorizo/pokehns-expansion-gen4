@@ -5140,6 +5140,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
 #if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
     const u16 gOverworldPalette_Scizor[] = INCBIN_U16("graphics/pokemon/scizor/overworld_normal.gbapal");
     const u16 gShinyOverworldPalette_Scizor[] = INCBIN_U16("graphics/pokemon/scizor/overworld_shiny.gbapal");
+    const u16 gShinyModernOverworldPalette_Scizor[] = INCBIN_U16("graphics/pokemon/scizor/overworld_shiny_modern.gbapal");
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
 
@@ -27547,6 +27548,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u16 gMonShinyPaletteModern_Lanturn[] = INCBIN_U16("graphics/pokemon/lanturn/shiny_modern.gbapal");
     const u16 gMonShinyPaletteModern_Xatu[] = INCBIN_U16("graphics/pokemon/xatu/shiny_modern.gbapal");
     const u16 gMonShinyPaletteModern_Scyther[] = INCBIN_U16("graphics/pokemon/scyther/shiny_modern.gbapal");
+    const u16 gMonShinyPaletteModern_Scizor[] = INCBIN_U16("graphics/pokemon/scizor/shiny_modern.gbapal");
     const u16 gMonShinyPaletteModern_Heracross[] = INCBIN_U16("graphics/pokemon/heracross/shiny_modern.gbapal");
     const u16 gMonShinyPaletteModern_Phanpy[] = INCBIN_U16("graphics/pokemon/phanpy/shiny_modern.gbapal");
     const u16 gMonShinyPaletteModern_Elekid[] = INCBIN_U16("graphics/pokemon/elekid/shiny_modern.gbapal");
