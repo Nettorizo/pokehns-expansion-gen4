@@ -72107,7 +72107,7 @@
               {
                 "min_level": 45,
                 "max_level": 60,
-                "species": "SPECIES_SNEASEL_HISUI"
+                "species": "SPECIES_SNOVER"
               },
               {
                 "min_level": 45,
@@ -72122,7 +72122,7 @@
               {
                 "min_level": 45,
                 "max_level": 70,
-                "species": "SPECIES_WYRDEER"
+                "species": "SPECIES_ABOMASNOW"
               }
             ]
           },
@@ -72236,22 +72236,22 @@
               {
                 "min_level": 45,
                 "max_level": 60,
-                "species": "SPECIES_URSARING"
-              },
-              {
-                "min_level": 45,
-                "max_level": 60,
-                "species": "SPECIES_STANTLER"
-              },
-              {
-                "min_level": 45,
-                "max_level": 60,
-                "species": "SPECIES_STANTLER"
-              },
-              {
-                "min_level": 45,
-                "max_level": 60,
                 "species": "SPECIES_SNORUNT"
+              },
+              {
+                "min_level": 45,
+                "max_level": 60,
+                "species": "SPECIES_STANTLER"
+              },
+              {
+                "min_level": 45,
+                "max_level": 60,
+                "species": "SPECIES_SNOVER"
+              },
+              {
+                "min_level": 45,
+                "max_level": 60,
+                "species": "SPECIES_ABOMASNOW"
               },
               {
                 "min_level": 45,
@@ -72370,7 +72370,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_AERODACTYL"
+                "species": "SPECIES_SPIRITOMB"
               },
               {
                 "min_level": 5,
@@ -72552,7 +72552,7 @@
               {
                 "min_level": 45,
                 "max_level": 60,
-                "species": "SPECIES_URSARING"
+                "species": "SPECIES_NOSEPASS"
               },
               {
                 "min_level": 45,
@@ -72562,7 +72562,7 @@
               {
                 "min_level": 45,
                 "max_level": 60,
-                "species": "SPECIES_NOSEPASS"
+                "species": "SPECIES_BRONZOR"
               },
               {
                 "min_level": 45,
@@ -72577,7 +72577,7 @@
               {
                 "min_level": 45,
                 "max_level": 70,
-                "species": "SPECIES_CHIMECHO"
+                "species": "SPECIES_BRONZONG"
               },
               {
                 "min_level": 45,
@@ -72651,12 +72651,12 @@
               {
                 "min_level": 45,
                 "max_level": 60,
-                "species": "SPECIES_URSARING"
+                "species": "SPECIES_DUSKULL"
               },
               {
                 "min_level": 45,
                 "max_level": 60,
-                "species": "SPECIES_DUSKULL"
+                "species": "SPECIES_DRIFLOON"
               },
               {
                 "min_level": 45,
@@ -72681,7 +72681,7 @@
               {
                 "min_level": 45,
                 "max_level": 70,
-                "species": "SPECIES_HOUNDOOM"
+                "species": "SPECIES_DRIFBLIM"
               }
             ]
           },
