@@ -4508,7 +4508,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
             TRACKS_FOOT,
             sAnimTable_Following,
             gOverworldPalette_Garchomp,
-            gShinyOverworldPalette_Garchomp
+            gShinyOverworldPalette_Garchomp,
             gShinyModernOverworldPalette_Garchomp
         )
         OVERWORLD_FEMALE(
