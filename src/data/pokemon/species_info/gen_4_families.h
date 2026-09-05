@@ -4491,6 +4491,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .backAnimId = BACK_ANIM_V_SHAKE_LOW,
         .palette = gMonPalette_Garchomp,
         .shinyPalette = gMonShinyPalette_Garchomp,
+        .shinyPaletteModern = gMonShinyPaletteModern_Garchomp,
         .iconSprite = gMonIcon_Garchomp,
         .iconPalIndex = 0,
 #if P_GENDER_DIFFERENCES
@@ -4508,6 +4509,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
             sAnimTable_Following,
             gOverworldPalette_Garchomp,
             gShinyOverworldPalette_Garchomp
+            gShinyModernOverworldPalette_Garchomp
         )
         OVERWORLD_FEMALE(
             sPicTable_GarchompF,
