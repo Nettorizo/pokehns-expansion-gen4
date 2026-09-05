@@ -1,9 +1,19 @@
 AbandonedHouse_TVRoom_hns_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION AbandonedHouse_TVRoom_EventScript_CheckTVGlow
 	.byte 0
+
+AbandonedHouse_TVRoom_EventScript_CheckTVGlow::
+	goto_if_unset FLAG_HIDE_ROTOM, AbandonedHouse_TVRoom_EventScript_AddTVGlow
+	release
+	end
+
+AbandonedHouse_TVRoom_EventScript_AddTVGlow::
+	addobject LOCALID_ABANDONEDHOUSE_TVROOM_GLOW
+	release
+	end
 
 AbandonedHouse_TVRoom_EventScript_Item_RotomCatalog::
 	finditem ITEM_ROTOM_CATALOG
-	release
 	end
 
 AbandonedHouse_TVRoom_EventScript_CheckTV::
@@ -15,8 +25,8 @@ AbandonedHouse_TVRoom_EventScript_CheckTV::
 AbandonedHouse_TVRoom_EventScript_TVInteract::
 	msgbox AbandonedHouse_TVRoom_TVText_Rotom, MSGBOX_YESNO
 	switch VAR_RESULT
-	case NO, AbandonedHouse_TVRoom_EventScript_PlayerOrRotomRan
 	case YES, AbandonedHouse_TVRoom_EventScript_Rotom
+	case NO, AbandonedHouse_TVRoom_EventScript_PlayerOrRotomRan
 	case MULTI_B_PRESSED, AbandonedHouse_TVRoom_EventScript_PlayerOrRotomRan
 
 AbandonedHouse_TVRoom_EventScript_Rotom::
@@ -38,6 +48,11 @@ AbandonedHouse_TVRoom_EventScript_Rotom::
 	end
 
 AbandonedHouse_TVRoom_EventScript_PlayerOrRotomRan::
+	release
+	end
+
+AbandonedShip_TVRoom_EventScript_NoRotom::
+	msgbox AbandonedHouse_TVRoom_TVText_NoRotom, MSGBOX_DEFAULT
 	release
 	end
 

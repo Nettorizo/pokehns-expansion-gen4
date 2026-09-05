@@ -142,7 +142,7 @@ Route34_AbandonedHouse_EventScript_OpenDoor::
 	end
 
 Route34_AbandonedHouse_EventScript_DoorAlreadyOpened::
-	msgbox Route34_AbandonedHouse_Text_DoorIsOpen, MSGBOX_DEFAULT
+	msgbox Route34_AbandonedHouse_Text_KeyOpenedDoor2, MSGBOX_DEFAULT
 	setmetatile 23, 50, 0x03D, FALSE
 	release
 	end
@@ -150,10 +150,12 @@ Route34_AbandonedHouse_EventScript_DoorAlreadyOpened::
 Route34_AbandonedHouse_Text_DoorsLocked:
     .string "The door's locked…$"
 
-Route34_AbandonedHouse_Text_DoorIsOpen:
-    .string "The door is open.$"
-
 Route34_AbandonedHouse_Text_KeyOpenedDoor:
+    .string "The HOUSE KEY opened the door.$"
+
+Route34_AbandonedHouse_Text_KeyOpenedDoor2:
+	.string "The door seems to have locked\p"
+	.string "itself once again.\n"
     .string "The HOUSE KEY opened the door.$"
 
 Route34_Text_YoungsterSamuel_Seen:
