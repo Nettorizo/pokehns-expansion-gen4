@@ -13,6 +13,10 @@ NewSinjoh_HotSprings_EventScript_Item_LavaCookie::
     finditem ITEM_LAVA_COOKIE
     end
 
+NewSinjoh_HotSprings_EventScript_Item_HouseKey::
+    finditem ITEM_HOUSE_KEY
+    end
+
 NewSinjoh_HotSprings_EventScript_Mualani::
 	goto_if_defeated TRAINER_MUALANI_HNS, NewSinjoh_HotSprings_EventScript_MualaniAfter
 	msgbox NewSinjoh_HotSprings_Text_MualaniBefore, MSGBOX_NPC
