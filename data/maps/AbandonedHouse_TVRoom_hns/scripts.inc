@@ -7,9 +7,8 @@ AbandonedHouse_TVRoom_EventScript_Item_RotomCatalog::
 	end
 
 AbandonedHouse_TVRoom_EventScript_CheckTV::
-	checkflag FLAG_HIDE_ROTOM
-	goto_if_eq VAR_RESULT, FALSE, AbandonedHouse_TVRoom_EventScript_TVInteract
-	goto_if_eq VAR_RESULT, TRUE, AbandonedHouse_TVRoom_TVText_NoRotom
+	goto_if_set FLAG_HIDE_ROTOM, AbandonedHouse_TVRoom_TVText_NoRotom
+	goto_if_unset FLAG_HIDE_ROTOM, AbandonedHouse_TVRoom_EventScript_TVInteract
 	release
 	end
 
@@ -45,8 +44,8 @@ AbandonedHouse_TVRoom_EventScript_PlayerOrRotomRan::
 AbandonedHouse_TVRoom_TVText_Rotom::
 	.string "Inside the TV...\p"
 	.string "There appears to be a POKéMON...?\n"
-	.string "The POKéMON appears as if it will come\p"
-	.string "out. Want to thump the TV?$"
+	.string "The POKéMON looks like it wants to\p"
+	.string "come out. Want to touch the TV?$"
 
 AbandonedHouse_TVRoom_TVText_NoRotom::
 	.string "The POKéMON has left the TV.\n"
