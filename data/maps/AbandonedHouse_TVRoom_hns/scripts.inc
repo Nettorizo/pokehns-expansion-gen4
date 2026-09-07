@@ -1,15 +1,13 @@
 AbandonedHouse_TVRoom_hns_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION AbandonedHouse_TVRoom_EventScript_CheckTVGlow
+	map_script MAP_SCRIPT_ON_TRANSITION AbandonedHouse_TVRoom_OnTransition
 	.byte 0
 
-AbandonedHouse_TVRoom_EventScript_CheckTVGlow::
+AbandonedHouse_TVRoom_OnTransition::
 	goto_if_unset FLAG_HIDE_ROTOM, AbandonedHouse_TVRoom_EventScript_AddTVGlow
-	release
 	end
 
 AbandonedHouse_TVRoom_EventScript_AddTVGlow::
-	addobject LOCALID_ABANDONEDHOUSE_TVROOM_GLOW
-	release
+	setmetatile 23, 50, 0x325, TRUE
 	end
 
 AbandonedHouse_TVRoom_EventScript_Item_RotomCatalog::
@@ -17,7 +15,6 @@ AbandonedHouse_TVRoom_EventScript_Item_RotomCatalog::
 	end
 
 AbandonedHouse_TVRoom_EventScript_CheckTV::
-	goto_if_set FLAG_HIDE_ROTOM, AbandonedHouse_TVRoom_TVText_NoRotom
 	goto_if_unset FLAG_HIDE_ROTOM, AbandonedHouse_TVRoom_EventScript_TVInteract
 	release
 	end
@@ -41,8 +38,8 @@ AbandonedHouse_TVRoom_EventScript_Rotom::
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, AbandonedHouse_TVRoom_EventScript_PlayerOrRotomRan
 	fadescreenswapbuffers FADE_TO_BLACK
-	removeobject LOCALID_ABANDONEDHOUSE_TVROOM_GLOW
 	setflag FLAG_HIDE_ROTOM
+	setmetatile 23, 50, 0x314, TRUE
 	fadescreenswapbuffers FADE_FROM_BLACK
 	release
 	end

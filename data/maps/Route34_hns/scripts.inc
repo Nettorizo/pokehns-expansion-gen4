@@ -154,8 +154,8 @@ Route34_AbandonedHouse_Text_KeyOpenedDoor:
     .string "The HOUSE KEY opened the door.$"
 
 Route34_AbandonedHouse_Text_KeyOpenedDoor2:
-	.string "The door seems to have locked\p"
-	.string "itself once again.\n"
+	.string "The door seems to have locked\n"
+	.string "itself once again.\p"
     .string "The HOUSE KEY opened the door.$"
 
 Route34_Text_YoungsterSamuel_Seen:
