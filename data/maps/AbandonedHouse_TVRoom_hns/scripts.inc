@@ -1,14 +1,5 @@
 AbandonedHouse_TVRoom_hns_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION AbandonedHouse_TVRoom_OnTransition
 	.byte 0
-
-AbandonedHouse_TVRoom_OnTransition::
-	goto_if_unset FLAG_HIDE_ROTOM, AbandonedHouse_TVRoom_EventScript_AddTVGlow
-	end
-
-AbandonedHouse_TVRoom_EventScript_AddTVGlow::
-	setmetatile 23, 50, 0x325, TRUE
-	end
 
 AbandonedHouse_TVRoom_EventScript_Item_RotomCatalog::
 	finditem ITEM_ROTOM_CATALOG
@@ -16,6 +7,7 @@ AbandonedHouse_TVRoom_EventScript_Item_RotomCatalog::
 
 AbandonedHouse_TVRoom_EventScript_CheckTV::
 	goto_if_unset FLAG_HIDE_ROTOM, AbandonedHouse_TVRoom_EventScript_TVInteract
+	goto_if_set FLAG_HIDE_ROTOM, AbandonedShip_TVRoom_EventScript_NoRotom
 	release
 	end
 
@@ -39,7 +31,6 @@ AbandonedHouse_TVRoom_EventScript_Rotom::
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, AbandonedHouse_TVRoom_EventScript_PlayerOrRotomRan
 	fadescreenswapbuffers FADE_TO_BLACK
 	setflag FLAG_HIDE_ROTOM
-	setmetatile 23, 50, 0x314, TRUE
 	fadescreenswapbuffers FADE_FROM_BLACK
 	release
 	end
@@ -56,8 +47,8 @@ AbandonedShip_TVRoom_EventScript_NoRotom::
 AbandonedHouse_TVRoom_TVText_Rotom::
 	.string "Inside the TV...\p"
 	.string "There appears to be a POKéMON...?\n"
-	.string "The POKéMON looks like it wants to\p"
-	.string "come out. Want to touch the TV?$"
+	.string "It looks like it wants to come out.\p"
+	.string "Want to touch the TV?$"
 
 AbandonedHouse_TVRoom_TVText_NoRotom::
-	.string "The POKéMON has left the TV.\n"
+	.string "The POKéMON has left the TV.$"
