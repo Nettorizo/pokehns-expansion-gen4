@@ -11232,6 +11232,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
 #if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
     const u16 gOverworldPalette_Probopass[] = INCBIN_U16("graphics/pokemon/probopass/overworld_normal.gbapal");
     const u16 gShinyOverworldPalette_Probopass[] = INCBIN_U16("graphics/pokemon/probopass/overworld_shiny.gbapal");
+    const u16 gShinyModernOverworldPalette_Probopass[] = INCBIN_U16("graphics/pokemon/probopass/overworld_shiny_modern.gbapal");
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
 #endif //P_GEN_4_CROSS_EVOS
@@ -27556,3 +27557,4 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u16 gMonShinyPaletteModern_Blaziken[] = INCBIN_U16("graphics/pokemon/blaziken/shiny_modern.gbapal");
     const u16 gMonShinyPaletteModern_Regice[] = INCBIN_U16("graphics/pokemon/regice/shiny_modern.gbapal");
     const u16 gMonShinyPaletteModern_Garchomp[] = INCBIN_U16("graphics/pokemon/garchomp/shiny_modern.gbapal");
+    const u16 gMonShinyPaletteModern_Probopass[] = INCBIN_U16("graphics/pokemon/probopass/shiny_modern.gbapal");
