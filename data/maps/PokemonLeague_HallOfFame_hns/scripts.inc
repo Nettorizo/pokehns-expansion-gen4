@@ -105,15 +105,15 @@ PokemonLeague_HallOfFame_EventScript_SetGameClearFlags::
 	clearflag FLAG_HIDE_UXIE
 	clearflag FLAG_HIDE_MESPRIT
 	clearflag FLAG_HIDE_AZELF
-	clearflag FLAG_HIDE_DIALGA
-	clearflag FLAG_HIDE_PALKIA
 	clearflag FLAG_HIDE_HEATRAN
-	clearflag FLAG_HIDE_GIRATINA
 	clearflag FLAG_HIDE_CRESSELIA
 	clearflag FLAG_HIDE_MANAPHY
 	clearflag FLAG_HIDE_DARKRAI
 	clearflag FLAG_HIDE_SHAYMIN
 	clearflag FLAG_SUMMONED_MTMOON_JIRACHI
+	setflag FLAG_HIDE_DIALGA
+	setflag FLAG_HIDE_PALKIA
+	setflag FLAG_HIDE_GIRATINA
 	setvar VAR_LEAGUE_STATE, 1
 	return
 
