@@ -13039,6 +13039,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .backAnimId = BACK_ANIM_V_SHAKE,
         .palette = gMonPalette_Onix,
         .shinyPalette = gMonShinyPalette_Onix,
+        .shinyPaletteModern = gMonShinyPaletteModern_Onix,
         .iconSprite = gMonIcon_Onix,
         .iconPalIndex = 2,
         .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
@@ -13051,7 +13052,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
             TRACKS_SLITHER,
             sAnimTable_Following,
             gOverworldPalette_Onix,
-            gShinyOverworldPalette_Onix
+            gShinyOverworldPalette_Onix,
+            gShinyModernOverworldPalette_Onix
         )
         .levelUpLearnset = sOnixLevelUpLearnset,
         .teachableLearnset = sOnixTeachableLearnset,
