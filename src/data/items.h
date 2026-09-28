@@ -9869,7 +9869,10 @@ const struct ItemInfo gItemsInfo[] =
         .price = 100,
     #endif
         .holdEffect = HOLD_EFFECT_DOUBLE_PRIZE,
-        .description = sLuckIncenseDesc,
+        .description = COMPOUND_STRING(
+            "Doubles money in\n"
+            "battle if held by\n"
+            "{PKMN} in the party."),
         .pocket = POCKET_ITEMS,
         .sortType = ITEM_TYPE_HELD_ITEM,
         .type = ITEM_USE_BAG_MENU,
