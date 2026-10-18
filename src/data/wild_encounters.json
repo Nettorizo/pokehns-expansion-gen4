@@ -69153,7 +69153,7 @@
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_MAGIKARP"
+                "species": "SPECIES_QUAGSIRE"
               },
               {
                 "min_level": 35,
@@ -69163,7 +69163,7 @@
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_QUAGSIRE"
+                "species": "SPECIES_FINNEON"
               },
               {
                 "min_level": 35,
@@ -69307,12 +69307,12 @@
               {
                 "min_level": 19,
                 "max_level": 26,
-                "species": "SPECIES_QWILFISH"
+                "species": "SPECIES_CHINCHOU"
               },
               {
                 "min_level": 19,
                 "max_level": 26,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_FINNEON"
               },
               {
                 "min_level": 19,
