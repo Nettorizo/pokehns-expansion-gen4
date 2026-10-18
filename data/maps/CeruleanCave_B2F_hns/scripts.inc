@@ -104,7 +104,7 @@ CeruleanCave3_Text_LeafMeeting4:
 	.string "That must mean you're\n"
 	.string "KANTO CHAMPION now!\p"
 	.string "Yeah, that's awesome!\n"
-	.string "I'm on the same boat!\p"
+	.string "I'm in the same boat!\p"
 	.string "Or at least I was until\n"
 	.string "I lost the title.$"
 
@@ -161,8 +161,8 @@ CeruleanCave3_Movement_Heart:
 CeruleanCave3_Text_LeafBeat1:
 	.string "You don't beat around the bush\n"
 	.string "do you?\p"
-	.string "That was about as much fun\n"
-	.string "I ever had since losing the\l"
+	.string "That was about the most fun\n"
+	.string "I've had since losing the\l"
 	.string "CHAMPION title!\p"
 	.string "Who beat me?$"
 
@@ -173,7 +173,7 @@ CeruleanCave3_Text_LeafBeat2:
 	.string "Even if I told you:$"
 
 CeruleanCave3_Text_LeafBeat3:
-	.string "you probably toppled them already!\p"
+	.string "You probably toppled them already!\p"
 	.string "Here!\p"
 	.string "I just hatched this EEVEE,\n"
 	.string "but I think you deserve this!$"

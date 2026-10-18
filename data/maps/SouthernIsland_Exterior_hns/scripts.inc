@@ -91,7 +91,7 @@ SouthernIsland_Exterior_hns_Text_BrendanMeeting2:
 	.string "I keep hearing about!\p"
 	.string "Yeah, news like that even spreads\n"
 	.string "around HOENN too.\p"
-	.string "I'm BRENDAN by the way.$"
+	.string "I'm BRENDAN, by the way.$"
 
 SouthernIsland_Exterior_hns_Movement_X:
 	emote_x
@@ -125,16 +125,16 @@ SouthernIsland_Exterior_hns_Movement_BrendanFaceDown:
 	step_end
 
 SouthernIsland_Exterior_hns_Text_BrendanMeeting6:
-	.string "I win too easy for the\n"
+	.string "I win too easily for the\n"
 	.string "POKéMON LEAGUE and GYM LEADERS\l"
-	.string "to train with.\p"
+	.string "to be worth training with.\p"
 	.string "STEVEN is out doing his own thing.\p"
 	.string "WALLY is off training at some\n"
 	.string "place called the BATTLE MAISON.\p"
 	.string "And MAY...\p"
 	.string "Well, she's nice and I like her.\p"
-	.string "She got stronger recently too,\n"
-	.string "but her thing is helping PROF. BIRCH\l"
+	.string "She got stronger recently, but\n"
+	.string "her thing is helping PROF. BIRCH\l"
 	.string "with his POKéMON research.$"
 
 SouthernIsland_Exterior_hns_Text_BrendanMeeting7:
@@ -149,7 +149,7 @@ SouthernIsland_Exterior_hns_Movement_BrendanFaceUp:
 	step_end
 
 SouthernIsland_Exterior_hns_Text_BrendanMeeting8:
-	.string "But it's not easy staying at the top\n"
+	.string "But it's not easy staying at the top,\n"
 	.string "even if there's no one rising to\l"
 	.string "challenge me.\p"
 	.string "Then I heard about you.\p"
