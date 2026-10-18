@@ -72725,7 +72725,7 @@
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_LITWICK"
+                "species": "SPECIES_GASTLY"
               },
               {
                 "min_level": 40,
@@ -72735,32 +72735,32 @@
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_LAMPENT"
+                "species": "SPECIES_DUSKULL"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_SINISTEA"
+                "species": "SPECIES_DUSKULL"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_SINISTEA"
+                "species": "SPECIES_HAUNTER"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
+                "species": "SPECIES_DUSCLOPS"
+              },
+              {
+                "min_level": 45,
+                "max_level": 50,
                 "species": "SPECIES_SABLEYE"
               },
               {
                 "min_level": 45,
                 "max_level": 50,
-                "species": "SPECIES_CERULEDGE"
-              },
-              {
-                "min_level": 45,
-                "max_level": 50,
-                "species": "SPECIES_CHANDELURE"
+                "species": "SPECIES_GENGAR"
               },
               {
                 "min_level": 45,
@@ -72799,17 +72799,17 @@
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_FRILLISH"
+                "species": "SPECIES_MISDREAVUS"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_GREAVARD"
+                "species": "SPECIES_DUSKULL"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_DRIFLOON"
+                "species": "SPECIES_DUSKULL"
               },
               {
                 "min_level": 40,
@@ -72819,12 +72819,12 @@
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_SANDYGAST"
+                "species": "SPECIES_DUSCLOPS"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_HOUNDSTONE"
+                "species": "SPECIES_DRIFLOON"
               },
               {
                 "min_level": 45,
@@ -72834,22 +72834,22 @@
               {
                 "min_level": 45,
                 "max_level": 50,
-                "species": "SPECIES_JELLICENT"
+                "species": "SPECIES_MISMAGIUS"
               },
               {
                 "min_level": 45,
                 "max_level": 50,
-                "species": "SPECIES_MIMIKYU"
+                "species": "SPECIES_SPIRITOMB"
               },
               {
                 "min_level": 45,
                 "max_level": 50,
-                "species": "SPECIES_MIMIKYU"
+                "species": "SPECIES_SPIRITOMB"
               },
               {
                 "min_level": 45,
                 "max_level": 50,
-                "species": "SPECIES_JELLICENT"
+                "species": "SPECIES_MISMAGIUS"
               }
             ]
           }
@@ -72868,7 +72868,7 @@
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_PUMPKABOO"
+                "species": "SPECIES_MISDREAVUS"
               },
               {
                 "min_level": 40,
@@ -72878,7 +72878,7 @@
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_DREEPY"
+                "species": "SPECIES_DUSKULL"
               },
               {
                 "min_level": 40,
@@ -72888,12 +72888,12 @@
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_PHANTUMP"
+                "species": "SPECIES_DUSCLOPS"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_DUSCLOPS"
+                "species": "SPECIES_DRIFLOON"
               },
               {
                 "min_level": 45,
@@ -72903,22 +72903,22 @@
               {
                 "min_level": 45,
                 "max_level": 50,
-                "species": "SPECIES_GOURGEIST"
+                "species": "SPECIES_MISMAGIUS"
               },
               {
                 "min_level": 45,
                 "max_level": 50,
-                "species": "SPECIES_DRAKLOAK"
+                "species": "SPECIES_SPIRITOMB"
               },
               {
                 "min_level": 45,
                 "max_level": 50,
-                "species": "SPECIES_DRAKLOAK"
+                "species": "SPECIES_SPIRITOMB"
               },
               {
                 "min_level": 45,
                 "max_level": 50,
-                "species": "SPECIES_GOURGEIST"
+                "species": "SPECIES_MISMAGIUS"
               }
             ]
           }
